@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img">
+    <title>Hình minh họa Campus Reuse</title>
+    <defs>
+        <linearGradient id="reuse-bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#d9e8c8"/>
+            <stop offset="1" stop-color="#9fc48f"/>
+        </linearGradient>
+    </defs>
+    <rect width="640" height="400" rx="26" fill="url(#reuse-bg)"/>
+    <circle cx="318" cy="209" r="142" fill="#f8f6e9" opacity=".94"/>
+    <path d="M306 75a125 125 0 0 1 109 63" fill="none" stroke="#5d9164" stroke-linecap="round" stroke-width="18"/>
+    <path d="m402 122 22 17-28 7" fill="#5d9164"/>
+    <path d="M439 222a125 125 0 0 1-102 87" fill="none" stroke="#799e5b" stroke-linecap="round" stroke-width="18"/>
+    <path d="m356 299-21 14 2-29" fill="#799e5b"/>
+    <path d="M236 298a125 125 0 0 1-45-112" fill="none" stroke="#90af64" stroke-linecap="round" stroke-width="18"/>
+    <path d="m193 211-4-27 25 14" fill="#90af64"/>
+    <path d="M202 143a125 125 0 0 1 78-64" fill="none" stroke="#6b9b6b" stroke-linecap="round" stroke-width="18"/>
+    <path d="m271 84 27-9-10 27" fill="#6b9b6b"/>
+    <rect x="244" y="173" width="148" height="100" rx="14" fill="#e1c991"/>
+    <path d="M244 194h148" stroke="#b99b62" stroke-width="5"/>
+    <path d="M292 172c0-23 13-38 28-48 18 16 22 35 6 50-13 13-27 12-34-2Z" fill="#83ad70"/>
+    <path d="M318 171c-1-20 8-32 21-40 12 15 13 29 1 38-7 6-15 6-22 2Z" fill="#5f946d"/>
+    <path d="M317 175v-43" stroke="#638c5d" stroke-width="4" stroke-linecap="round"/>
+    <rect x="441" y="22" width="142" height="29" rx="14.5" fill="#fff" opacity=".85"/>
+    <text x="512" y="41" text-anchor="middle" fill="#536a34" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">MINH HỌA</text>
+</svg>

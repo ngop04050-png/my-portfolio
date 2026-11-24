@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tìm hiểu thêm về Ngô Hoàng Phúc và hành trình học phát triển backend.">
     <title>Giới thiệu — Ngô Hoàng Phúc</title>
+    <script src="js/script.js"></script>
     <link rel="icon" href="images/logo.svg" type="image/svg+xml">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,19 +15,34 @@
             <span class="brand-mark" aria-hidden="true">P</span>
             <span>portfolio<span class="brand-dot">.</span></span>
         </a>
-        <div class="nav-links">
+        <div class="nav-links" id="primary-navigation">
             <a href="index.html">Trang chủ</a>
             <a href="about.html" aria-current="page">Giới thiệu</a>
+            <a href="projects.html">Dự án</a>
             <a href="contact.html">Liên hệ</a>
+        </div>
+        <div class="nav-actions">
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="Chuyển sang chế độ tối" aria-pressed="false">
+                <svg data-theme-icon="sun" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path>
+                </svg>
+                <svg data-theme-icon="moon" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+                    <path d="M20.2 15.6A8.5 8.5 0 0 1 8.4 3.8 8.5 8.5 0 1 0 20.2 15.6Z"></path>
+                </svg>
+            </button>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Mở menu điều hướng">
+                <span aria-hidden="true"></span>
+            </button>
         </div>
     </nav>
 
     <main class="page-main">
-        <header class="page-heading">
+        <header class="page-heading" data-reveal>
             <p class="eyebrow">Đôi nét về mình</p>
             <h1>Luôn tò mò,<br>luôn muốn tạo ra điều hay.</h1>
         </header>
-        <section class="about-layout">
+        <section class="about-layout" data-reveal>
             <div class="about-portrait">
                 <img src="images/avatar.jpg" alt="Ảnh chân dung Ngô Hoàng Phúc">
             </div>
@@ -51,6 +67,5 @@
         <span>© <span data-current-year>2026</span> Ngô Hoàng Phúc</span>
         <span>Được làm bằng sự tò mò <span class="accent" aria-label="tình yêu">♥</span></span>
     </footer>
-    <script src="js/script.js"></script>
 </body>
 </html>

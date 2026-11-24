@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Liên hệ với Ngô Hoàng Phúc.">
+    <meta name="description" content="Liên hệ với Ngô Hoàng Phúc qua email hoặc gửi tin nhắn bằng biểu mẫu.">
     <title>Liên hệ — Ngô Hoàng Phúc</title>
+    <script src="js/script.js"></script>
     <link rel="icon" href="images/logo.svg" type="image/svg+xml">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -14,20 +15,53 @@
             <span class="brand-mark" aria-hidden="true">P</span>
             <span>portfolio<span class="brand-dot">.</span></span>
         </a>
-        <div class="nav-links">
+        <div class="nav-links" id="primary-navigation">
             <a href="index.html">Trang chủ</a>
             <a href="about.html">Giới thiệu</a>
+            <a href="projects.html">Dự án</a>
             <a href="contact.html" aria-current="page">Liên hệ</a>
+        </div>
+        <div class="nav-actions">
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="Chuyển sang chế độ tối" aria-pressed="false">
+                <svg data-theme-icon="sun" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path>
+                </svg>
+                <svg data-theme-icon="moon" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+                    <path d="M20.2 15.6A8.5 8.5 0 0 1 8.4 3.8 8.5 8.5 0 1 0 20.2 15.6Z"></path>
+                </svg>
+            </button>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Mở menu điều hướng">
+                <span aria-hidden="true"></span>
+            </button>
         </div>
     </nav>
 
     <main class="page-main contact-main">
-        <section class="contact-card">
+        <section class="contact-card" data-reveal>
             <p class="eyebrow">Hộp thư luôn mở</p>
             <h1>Cùng làm điều<br>gì đó thú vị nhé<span class="accent">.</span></h1>
             <p class="contact-intro">Bạn có câu hỏi, lời mời hợp tác hoặc chỉ muốn chào hỏi? Mình rất vui được kết nối.</p>
             <a class="button" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=ngopuc04050%40gmail.com" target="_blank" rel="noopener noreferrer">ngopuc04050@gmail.com <span aria-hidden="true">↗</span></a>
             <p class="contact-note">Số điện thoại: Chưa được thêm. Cần số của bạn để tạo nút gọi điện.</p>
+
+            <form class="contact-form" data-formspree-form action="https://formspree.io/f/mdegpvgb" method="POST">
+                <div class="form-field">
+                    <label for="contact-name">Họ tên</label>
+                    <input id="contact-name" name="name" type="text" autocomplete="name" maxlength="100" required>
+                </div>
+                <div class="form-field">
+                    <label for="contact-email">Email</label>
+                    <input id="contact-email" name="email" type="email" autocomplete="email" maxlength="254" required>
+                </div>
+                <div class="form-field">
+                    <label for="contact-message">Nội dung</label>
+                    <textarea id="contact-message" name="message" rows="6" minlength="10" maxlength="5000" required></textarea>
+                </div>
+                <button class="button contact-submit" type="submit">Gửi tin nhắn <span aria-hidden="true">→</span></button>
+                <p class="form-status" data-form-status role="status" aria-live="polite" aria-atomic="true"></p>
+            </form>
+            <p class="contact-note form-setup-note">Biểu mẫu sử dụng Formspree để xử lý tin nhắn. Trạng thái gửi sẽ được hiển thị sau khi gửi.</p>
         </section>
     </main>
 
@@ -35,6 +69,5 @@
         <span>© <span data-current-year>2026</span> Ngô Hoàng Phúc</span>
         <span>Được làm bằng sự tò mò <span class="accent" aria-label="tình yêu">♥</span></span>
     </footer>
-    <script src="js/script.js"></script>
 </body>
 </html>

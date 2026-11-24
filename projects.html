@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Danh sách dự án của Ngô Hoàng Phúc, gồm thông tin mô tả và công nghệ có trong source hiện tại.">
+    <title>Dự án — Ngô Hoàng Phúc</title>
+    <script src="js/script.js"></script>
+    <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="site-nav" aria-label="Điều hướng chính">
+        <a class="brand" href="index.html" aria-label="Portfolio - Trang chủ">
+            <span class="brand-mark" aria-hidden="true">P</span>
+            <span>portfolio<span class="brand-dot">.</span></span>
+        </a>
+        <div class="nav-links" id="primary-navigation">
+            <a href="index.html">Trang chủ</a>
+            <a href="about.html">Giới thiệu</a>
+            <a href="projects.html" aria-current="page">Dự án</a>
+            <a href="contact.html">Liên hệ</a>
+        </div>
+        <div class="nav-actions">
+            <button class="theme-toggle" type="button" data-theme-toggle aria-label="Chuyển sang chế độ tối" aria-pressed="false">
+                <svg data-theme-icon="sun" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+                    <circle cx="12" cy="12" r="4"></circle>
+                    <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path>
+                </svg>
+                <svg data-theme-icon="moon" aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+                    <path d="M20.2 15.6A8.5 8.5 0 0 1 8.4 3.8 8.5 8.5 0 1 0 20.2 15.6Z"></path>
+                </svg>
+            </button>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" aria-label="Mở menu điều hướng">
+                <span aria-hidden="true"></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="page-main projects-main">
+        <header class="page-heading" data-reveal>
+            <p class="eyebrow">Dự án đã chọn</p>
+            <h1>Một vài sản phẩm mình đang xây dựng.</h1>
+            <p class="projects-intro">Ảnh bên dưới là hình minh họa được tạo riêng, không phải ảnh chụp giao diện sản phẩm thật. Thông tin mô tả, công nghệ hoặc liên kết chưa có trong source sẽ được đánh dấu rõ ràng.</p>
+        </header>
+
+        <section aria-label="Danh sách 6 dự án">
+            <div class="project-grid project-page-grid">
+                <article class="project-card project-detail-card" data-reveal>
+                    <img class="project-thumbnail" src="images/todo-list-js.svg" alt="Hình minh họa cho dự án Todo List JS" width="640" height="400" loading="lazy" decoding="async">
+                    <span class="project-number">01</span>
+                    <h2>Todo List JS</h2>
+                    <p>Ứng dụng nhỏ để ghi chú và theo dõi các công việc hằng ngày.</p>
+                    <p class="project-tech-label">Công nghệ sử dụng</p>
+                    <div class="project-tech">
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a class="button project-detail-button" href="index.html#project-todo-list-js">Xem chi tiết <span aria-hidden="true">→</span></a>
+                </article>
+
+                <article class="project-card project-detail-card" data-reveal>
+                    <img class="project-thumbnail" src="images/weather-app.svg" alt="Hình minh họa cho dự án Weather App" width="640" height="400" loading="lazy" decoding="async">
+                    <span class="project-number">02</span>
+                    <h2>Weather App</h2>
+                    <p>Tra cứu thời tiết với giao diện gọn gàng, dễ xem trên mọi thiết bị.</p>
+                    <p class="project-tech-label">Công nghệ / đặc điểm được ghi nhận</p>
+                    <div class="project-tech">
+                        <span class="tag">API</span>
+                        <span class="tag">Responsive</span>
+                    </div>
+                    <a class="button project-detail-button" href="index.html#project-weather-app">Xem chi tiết <span aria-hidden="true">→</span></a>
+                </article>
+
+                <article class="project-card project-detail-card project-card-accent" data-reveal>
+                    <img class="project-thumbnail" src="images/campus.svg" alt="Hình minh họa cho dự án Campus" width="640" height="400" loading="lazy" decoding="async">
+                    <span class="project-number">03</span>
+                    <h2>Campus</h2>
+                    <p>Dự án hướng đến môi trường học tập và đời sống sinh viên; source mô tả trọng tâm là backend, xử lý dữ liệu và xây dựng API.</p>
+                    <p class="project-tech-label">Công nghệ / lĩnh vực được ghi nhận</p>
+                    <div class="project-tech">
+                        <span class="tag">Backend</span>
+                        <span class="tag">Xử lý dữ liệu</span>
+                        <span class="tag">API</span>
+                    </div>
+                    <a class="button project-detail-button" href="index.html#project-campus">Xem chi tiết <span aria-hidden="true">→</span></a>
+                </article>
+
+                <article class="project-card project-detail-card" data-reveal>
+                    <img class="project-thumbnail" src="images/campus-reuse.svg" alt="Hình minh họa cho dự án Campus Reuse" width="640" height="400" loading="lazy" decoding="async">
+                    <span class="project-number">04</span>
+                    <h2>Campus Reuse</h2>
+                    <p>Chưa có mô tả trong source hiện tại.</p>
+                    <p class="project-tech-label">Công nghệ sử dụng</p>
+                    <div class="project-tech">
+                        <span class="tag">Chưa có thông tin</span>
+                    </div>
+                    <button class="button project-detail-button" type="button" disabled title="Chưa có liên kết xem dự án">Chưa có liên kết</button>
+                </article>
+
+                <article class="project-card project-detail-card" data-reveal>
+                    <img class="project-thumbnail" src="images/studyhub.svg" alt="Hình minh họa cho dự án StudyHub" width="640" height="400" loading="lazy" decoding="async">
+                    <span class="project-number">05</span>
+                    <h2>StudyHub</h2>
+                    <p>Chưa có mô tả trong source hiện tại.</p>
+                    <p class="project-tech-label">Công nghệ sử dụng</p>
+                    <div class="project-tech">
+                        <span class="tag">Chưa có thông tin</span>
+                    </div>
+                    <button class="button project-detail-button" type="button" disabled title="Chưa có liên kết xem dự án">Chưa có liên kết</button>
+                </article>
+
+                <article class="project-card project-detail-card" data-reveal>
+                    <img class="project-thumbnail" src="images/my-portfolio.svg" alt="Hình minh họa cho dự án My Portfolio" width="640" height="400" loading="lazy" decoding="async">
+                    <span class="project-number">06</span>
+                    <h2>My Portfolio</h2>
+                    <p>Website portfolio hiện tại được xây dựng bằng HTML, CSS và JavaScript thuần.</p>
+                    <p class="project-tech-label">Công nghệ sử dụng</p>
+                    <div class="project-tech">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a class="button project-detail-button" href="index.html">Xem chi tiết <span aria-hidden="true">→</span></a>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <span>© <span data-current-year>2026</span> Ngô Hoàng Phúc</span>
+        <span>Được làm bằng sự tò mò <span class="accent" aria-label="tình yêu">♥</span></span>
+    </footer>
+</body>
+</html>

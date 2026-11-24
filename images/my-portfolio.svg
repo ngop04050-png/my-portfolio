@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img">
+    <title>Hình minh họa My Portfolio</title>
+    <defs>
+        <linearGradient id="portfolio-bg" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#26372e"/>
+            <stop offset="1" stop-color="#4f7055"/>
+        </linearGradient>
+    </defs>
+    <rect width="640" height="400" rx="26" fill="url(#portfolio-bg)"/>
+    <circle cx="520" cy="92" r="60" fill="#c9ef74" opacity=".16"/>
+    <rect x="82" y="55" width="476" height="290" rx="18" fill="#f8f8f1"/>
+    <path d="M82 92h476" stroke="#e2e8dc" stroke-width="2"/>
+    <circle cx="107" cy="74" r="5" fill="#e18c79"/>
+    <circle cx="126" cy="74" r="5" fill="#e7c56e"/>
+    <circle cx="145" cy="74" r="5" fill="#8dbd79"/>
+    <rect x="106" y="112" width="113" height="207" rx="12" fill="#e6eddd"/>
+    <rect x="126" y="132" width="42" height="42" rx="14" fill="#c9ef74"/>
+    <text x="147" y="161" text-anchor="middle" fill="#314331" font-family="Arial,sans-serif" font-size="24" font-weight="700">P</text>
+    <rect x="126" y="190" width="69" height="7" rx="3.5" fill="#72826d"/>
+    <rect x="126" y="207" width="53" height="6" rx="3" fill="#aab5a3"/>
+    <rect x="126" y="224" width="61" height="6" rx="3" fill="#aab5a3"/>
+    <rect x="242" y="114" width="130" height="12" rx="6" fill="#35443a"/>
+    <rect x="242" y="139" width="258" height="8" rx="4" fill="#b0b9a9"/>
+    <rect x="242" y="156" width="220" height="8" rx="4" fill="#c7cec1"/>
+    <rect x="242" y="188" width="128" height="90" rx="12" fill="#dce8ca"/>
+    <path d="m260 254 26-28 21 17 21-30 25 41" fill="none" stroke="#658a56" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+    <rect x="388" y="188" width="112" height="90" rx="12" fill="#edf1e8"/>
+    <rect x="407" y="208" width="73" height="7" rx="3.5" fill="#9bab91"/>
+    <rect x="407" y="226" width="55" height="7" rx="3.5" fill="#bac5b4"/>
+    <rect x="407" y="244" width="66" height="7" rx="3.5" fill="#bac5b4"/>
+    <rect x="421" y="22" width="142" height="29" rx="14.5" fill="#fff" opacity=".9"/>
+    <text x="492" y="41" text-anchor="middle" fill="#536a34" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1">MINH HỌA</text>
+</svg>
